@@ -1,8 +1,3 @@
-locals {
-  aws_region  = "eu-west-1"
-  bucket_name = "terraform-tutorial"
-}
-
 variable "aws_region" {
   type = string
   default = "eu-west-1"
