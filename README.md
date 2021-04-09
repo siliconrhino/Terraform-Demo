@@ -10,3 +10,6 @@
 
 Copy dist to the s3 bucket
 aws s3 sync dist s3://$YOUR_DOMAIN
+
+## Step 2 - Add Express API
+
