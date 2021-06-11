@@ -14,6 +14,10 @@ provider "aws" {
 }
 
 module "website" {
-  source      = "./static-site"
+  source      = "./modules/static-site"
   bucket_name = var.bucket_name
+}
+
+module "api" {
+  source      = "./modules/api"
 }
